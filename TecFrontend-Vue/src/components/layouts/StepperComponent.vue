@@ -5,15 +5,15 @@
             <div class="stepper-progress-bar" :style="'width:' + stepperProgress "></div>
         </div>
         <!--inicio de stepper1-->
-     <div class="stepper-item current">
+     <div class="stepper-item" :class="{'current': step == item, 'sucess': step>item}" v-for="item in 5" :key="item">
         <div class="stepper-item-counter">
             <img src="" alt="" class="icon-success">
             <span class="number">
-                1
+                {{item}}
             </span>
         </div>
         <span class="stepper-item-title">
-            Paso 1
+            Paso {{item}}
         </span>
      
             </div>
@@ -45,7 +45,7 @@ import HomeComponent from '@/views/admin/home/HomeComponent.vue';
     }),
     computed: {
         stepperProgress(){
-            return( 100 / 3 ) * (this.step - 1 ) + '%'
+            return( 100 / 4 ) * (this.step - 1 ) + '%'
         }
     },
     components: { HomeComponent }
