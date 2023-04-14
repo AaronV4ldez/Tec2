@@ -26,7 +26,7 @@
         </div>
         <!--Fin del contenido del stepper1-->
         <div class="controls">
-            <button class="btn" @click="step--" :disabled="steo ==1">
+            <button class="btn" @click="step--" :disabled="step ==1">
                 Anterior
             </button>
             <btton class="btn btn--green-1" @click="step++" :disabled="step == 4">
