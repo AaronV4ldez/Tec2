@@ -19,9 +19,10 @@
             </div>
         </div><!--stepper1-->
         <!--Contenido de stepper1-->
-        <div class="stepper-content">
-            <div class="stepper-pane">
+        <div class="stepper-content" v-for="item in 5" :key="item">
+            <div class="stepper-pane" v-if="step == item">
                 <HomeComponent />
+                Este es el paso {{ item }}
             </div>
         </div>
         <!--Fin del contenido del stepper1-->
