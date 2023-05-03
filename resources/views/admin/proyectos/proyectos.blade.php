@@ -44,8 +44,8 @@
         @include('admin.proyectos.nuevoProyecto')
       </div>
       <div class="btns-group">
-        <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Previous</a>
-        <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Next</a>
+        <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Anterior</a>
+        <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Siguiente</a>
       </div>
     </div>
     <div class="form-step">
@@ -59,8 +59,8 @@
         @include('admin.proyectos.nuevoProyecto')
       </div>
       <div class="btns-group">
-        <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Previous</a>
-        <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Next</a>
+        <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Anterior</a>
+        <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Siguiente</a>
       </div>
     </div>
     <div class="form-step">
@@ -74,8 +74,8 @@
           @include('admin.proyectos.nuevoProyecto')
         </div>
         <div class="btns-group">
-          <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Previous</a>
-          <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Next</a>
+          <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Anterior</a>
+          <a href="#" class="btn btn-next" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Siguiente</a>
         </div>
       </div>
     <div class="form-step">
@@ -93,8 +93,8 @@
         @include('admin.proyectos.nuevoProyecto')
       </div>
       <div class="btns-group">
-        <a href="#" class="btn btn-prev"onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black" >Previous</a>
-        <input type="submit" value="Submit" class="btn" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black" />
+        <a href="#" class="btn btn-prev"onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black" >Anterior</a>
+        <input type="submit" value="Subir" class="btn" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black" />
       </div>
     </div>
   </form>
@@ -214,8 +214,8 @@ input {
 }
 
 .progress-step {
-  width: 2.1875rem;
-  height: 2.1875rem;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: #dcdcdc;
   border-radius: 50%;
   display: flex;
