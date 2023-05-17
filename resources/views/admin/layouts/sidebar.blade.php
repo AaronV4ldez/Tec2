@@ -59,13 +59,13 @@
     </div>
 
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="/proyectos/consulta">
             <i class="fa-solid fa-file"></i>
             <span>Proyectos</span></a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="/proyectos/consulta">
+        <a class="nav-link" href="/proyectos/crear">
             <i class="fa-solid fa-plus"></i>
             <span>Nuevo Proyecto</span></a>
     </li>
