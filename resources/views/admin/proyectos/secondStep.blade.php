@@ -2,24 +2,21 @@
 <div class="container-fluid col-sm-5 mx-auto rounded-1" style="border-color: black; border-radius:15px;"id="principal">                    
     <div class="input-group mb-3 pt-3">
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+            <input type="text" class="form-control" id="floatingInput" placeholder="minecraft">
+            <label for="floatingInput">Nombre</label>
           </div>
         
     </div>
                           
     <div class="container">
         <div class="row align-items-start">
-            <div class="col">
-                <div class="mb-3">
-                    <button type="AgregarD" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Agregar docente colaborador</button>
-                </div>
-            </div>
-            <div class="col">
-                <div class="mb-3">
-                    <button type="AgregarA" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Agregar alumno colaborador</button>
-                </div>
-            </div>
+         <form action="" method="post" enctype="multipart/form-data">
+            @csrf
+            <input type="file" name="file"> <br><br>
+            <button type="submit"> Subir Archivo</button>
+        </form>
+        <!--https://www.youtube.com/watch?v=OOGmH-tTilA&ab_channel=CodeStepByStep minutos 3:03
+        mañana hacer los demas steps plox uwu-->
         </div>
     </div>
     <div class="mb-3">
@@ -28,8 +25,7 @@
             <label for="floatingTextarea2">Descripcion</label>
         </div>
     </div>
-    <label for="dob">Fecha de inicio</label>
-    <input type="date" name="dob" id="dob"/>
+
     <!---------------------------------------------------------------------->
     <div class="container">
         <div class="row align-items-start">

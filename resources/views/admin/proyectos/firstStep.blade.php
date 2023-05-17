@@ -16,6 +16,18 @@
             <option value="3">Three</option>
         </select>
     </div>
+    <div class="input-group mb-3 pt-3">
+        <select class="form-select form-select-xl" aria-label=".form-select-sm example">
+            <option selected>Cuerpo academico</option>
+            <option value="1">Optimización de sistemas de producción</option>
+            <option value="2">Desarrollo e innovación de sistemas electromecánicos y mecatrónicos</option>
+            <option value="3">Estudios organizacionales e innovación tecnológica</option>
+            <option value="4">Tecnologías de la informática y comunicación</option>
+            <option value="5">Innovación de procesos educativos</option>
+            <option value="6">Empresariales y gubernamentales</option>
+            <option value="7">Innovación de procesos educativos contables</option>
+        </select>
+    </div>
     <div class="container">
         <div class="row align-items-start">
             <div class="col">
