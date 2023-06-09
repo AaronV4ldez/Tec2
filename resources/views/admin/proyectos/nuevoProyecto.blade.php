@@ -56,7 +56,7 @@
       <div class="input-group">
         <label for="ID">National ID</label>
         <input type="number" name="ID" id="ID" />-->
-        @include('admin.proyectos.firstStep')
+        @include('admin.proyectos.thirdStep')
       </div>
       <div class="btns-group">
         <a href="#" class="btn btn-prev" onclick="v1()" class="btn btn-primary" style="background-color: #f0ad4e; border-color:black">Anterior</a>
